@@ -1,0 +1,39 @@
+{
+    "name": "edwardalgorist/categorizable",
+    "description": "Laravel package to add model to categories",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": ["laravel", "package", "models", "categories"],
+    "autoload": {
+        "psr-4": {
+            "EdwardAlgorist\\Categorizable\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/support": "^9.48"
+    },
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Edward Nyirenda Jr.",
+            "email": "edwardnyirendajr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EdwardAlgorist\\Categorizable\\Providers\\CategorizableServiceProvider"
+            ]
+        }
+    }
+
+}
