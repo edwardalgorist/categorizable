@@ -13,6 +13,8 @@ class Category extends Model
 
     use HasFactory, HasSlug;
 
+    protected $guarded = ['id'];
+
     public function categorizables($type = null): Builder
     {
 
