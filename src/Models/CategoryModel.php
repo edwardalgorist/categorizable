@@ -12,6 +12,8 @@ class CategoryModel extends Model
 
     use HasFactory;
 
+    protected $guarded = ['id'];
+
     public function categorizable(): MorphTo
     {
         return $this->morphTo();

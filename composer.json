@@ -11,8 +11,7 @@
         }
     },
     "require": {
-        "php": "^8.0.2",
-        "illuminate/support": "^9.48"
+        "php": "^8.0.2"
     },
     "authors": [
         {
